@@ -4,9 +4,6 @@ PATH=/opt/local/gnu/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/usr/sbin
 # Exit if any commands fail
 set -o errexit
 
-echo "* Install sniproxy"
-pkg_add https://pkgsrc.smartos.skylime.net/skylime-extra/2017Q1/x86_64/sniproxy-0.5.0.tgz
-
 # clean up
 rm -rf /home/admin/.[^.]*
 rm -rf /root/*
