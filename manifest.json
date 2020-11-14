@@ -1,5 +1,5 @@
 {
-  "name":         "mi-qutic-sniproxy",
+  "name":         "qutic-sniproxy",
   "version":      "20191127.1",
   "description":  "SNI Proxy to make IPv6 only services available for IPv4 only users",
   "organization": "qutic development GmbH",
