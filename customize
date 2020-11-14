@@ -4,9 +4,6 @@ PATH=/opt/local/gnu/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/usr/sbin
 # Exit if any commands fail
 set -o errexit
 
-echo "* Enable ipfilter"
-svcadm enable svc:/network/ipfilter:default
-
 # clean up
 rm -rf /home/admin/.[^.]*
 rm -rf /root/*

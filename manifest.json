@@ -21,6 +21,8 @@
     "ssh_host_dsa_key.pub":  {"type": "text", "description": "public SSH dsa key for the host daemon"},
     "zabbix_server":         {"type": "text", "description": "zabbix server hostname (alternative ip address)"},
     "zabbix_pski":           {"type": "text", "description": "zabbix PSKIdentity"},
-    "zabbix_psk":            {"type": "text", "description": "zabbix PSK"}
+    "zabbix_psk":            {"type": "text", "description": "zabbix PSK"},
+    "ipf_ipv4_net":          {"type": "text", "description": "ipfilter ipv4 net to allow ssh and zabbix access"},
+    "ipf_ipv6_net":          {"type": "text", "description": "ipfilter ipv6 net to allow ssh and zabbix access"}
   }
 }
