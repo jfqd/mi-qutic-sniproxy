@@ -1,4 +1,4 @@
-# mi-snisix
+# mi-qutic-sniproxy
 
 This is a small service that helps you make IPv6 only services available to IPv4 only users.
 
